@@ -8,12 +8,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.6.9",
-    "mongoose": "^5.12.11",
-    "validator": "^13.6.0"
+    "cors": "^2.8.5"
   },
   "engines": {
     "node": "4.0.0"
