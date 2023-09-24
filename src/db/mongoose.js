@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://Gour0992:Gour0992@cluster0.o7whp.mongodb.net/budget-manager?retryWrites=true&w=majority",
+    "mongodb+srv://tricode:Tricode13@tricode.ojw5abw.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useCreateIndex: true,

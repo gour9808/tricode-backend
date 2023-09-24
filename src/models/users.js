@@ -12,17 +12,12 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    age: {
-      type: Number,
-      default: 0,
-    },
+   
     email: {
       type: String,
       unique: true,
       required: true,
     },
-
-    familyMembers: { type: Array, default: [] },
   },
   { timestamps: true }
 );
