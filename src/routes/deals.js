@@ -22,7 +22,7 @@ dealsDataRouter.post("/deal",  async (req, res) => {
 
 // GET
 
-expensesDataRouter.get("/deals",  async (req, res) => {
+dealsDataRouter.get("/deals",  async (req, res) => {
   let data = await expensesModel.find({  });
   res.send({ data: data });
 });
