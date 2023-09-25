@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://tricode:Tricode13@tricode.ojw5abw.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://tricode:Tricode13@tricode.ojw5abw.mongodb.net/tricode?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
