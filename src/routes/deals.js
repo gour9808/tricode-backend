@@ -27,4 +27,4 @@ dealsDataRouter.get("/deals",  async (req, res) => {
   res.send({ data: data });
 });
 
-module.exports = dealDataRouter;
+module.exports = dealsDataRouter;
