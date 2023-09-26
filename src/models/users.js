@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema(
       unique: true,
       required: true,
     },
+    role: {
+      type: String,
+      required: true
+    }
   },
   { timestamps: true }
 );
